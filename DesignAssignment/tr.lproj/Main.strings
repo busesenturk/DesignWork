@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "09:00 – 19:00"; ObjectID = "68V-R1-j5D"; */
+"68V-R1-j5D.text" = "09:00 – 19:00";
+
+/* Class = "UIButton"; configuration.title = "Yol tarifi al"; ObjectID = "7p0-34-GsU"; */
+"7p0-34-GsU.configuration.title" = "Yol tarifi al";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7p0-34-GsU"; */
+"7p0-34-GsU.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BGi-AB-gpc"; */
+"BGi-AB-gpc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Kız Kulesi şüphesiz İstanbul’un en güzel ve büyüleyici yerlerinden birisi olup, Üsküdar Salacak açıklarında 150-200 metre mesafede bir konumda bulunuyor. Hem müze hem de restoran olarak her gün 09:00 – 19:00 saatleri arasında ziyarete açık. Gündüz vakti kahvaltıya gelebilir, ayrıca rezervasyona gerek olmadan cafe ve restorandan yararlanabilirsiniz. Kız kulesinin giriş katında restoran ve kafeterya hizmeti, üst katında bulunan Kuledebar Cafe’de ise boğaz manzarası eşliğinde yeme içme hizmeti veriliyor. Akşam yemekleri için ise rezervasyon yaptırmanız gerekiyor😇"; ObjectID = "QeF-21-fhB"; */
+"QeF-21-fhB.text" = "Kız Kulesi şüphesiz İstanbul’un en güzel ve büyüleyici yerlerinden birisi olup, Üsküdar Salacak açıklarında 150-200 metre mesafede bir konumda bulunuyor. Hem müze hem de restoran olarak her gün 09:00 – 19:00 saatleri arasında ziyarete açık. Gündüz vakti kahvaltıya gelebilir, ayrıca rezervasyona gerek olmadan cafe ve restorandan yararlanabilirsiniz. Kız kulesinin giriş katında restoran ve kafeterya hizmeti, üst katında bulunan Kuledebar Cafe’de ise boğaz manzarası eşliğinde yeme içme hizmeti veriliyor. Akşam yemekleri için ise rezervasyon yaptırmanız gerekiyor😇";
+
+/* Class = "UILabel"; text = "Kız Kulesi"; ObjectID = "akO-5o-B5m"; */
+"akO-5o-B5m.text" = "Kız Kulesi";
+
+/* Class = "UILabel"; text = "Giriş Ücretli"; ObjectID = "lf2-42-k3Z"; */
+"lf2-42-k3Z.text" = "Giriş Ücretli";
+
+/* Class = "UILabel"; text = "Üsküdar"; ObjectID = "ofR-gz-ZVu"; */
+"ofR-gz-ZVu.text" = "Üsküdar";

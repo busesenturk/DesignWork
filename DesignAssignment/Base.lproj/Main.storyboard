@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DesignAssignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kizKulesi" translatesAutoresizingMaskIntoConstraints="NO" id="you-JR-wfv">
+                                <rect key="frame" x="32" y="60" width="350" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="5fh-8V-jDc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kız Kulesi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akO-5o-B5m">
+                                <rect key="frame" x="28" y="343" width="79" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="MainColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGi-AB-gpc">
+                                <rect key="frame" x="339" y="79" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BGi-AB-gpc" secondAttribute="height" multiplier="1:1" id="BLY-Zw-2h2"/>
+                                    <constraint firstAttribute="height" constant="30" id="cvn-u0-3v9" userLabel="height = 20"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="fill_heart"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yiD-rZ-JJg">
+                                <rect key="frame" x="32" y="371.5" width="117.5" height="68"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Qjq-FU-Yi1">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.5" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Nrh-cX-c5R">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="70g-VF-FEN"/>
+                                                    <constraint firstAttribute="width" secondItem="Nrh-cX-c5R" secondAttribute="height" multiplier="1:1" id="EJv-sN-36o"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Üsküdar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofR-gz-ZVu">
+                                                <rect key="frame" x="32" y="0.0" width="85.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ipT-BL-O5f">
+                                        <rect key="frame" x="0.0" y="24" width="117.5" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock_icon" translatesAutoresizingMaskIntoConstraints="NO" id="PzZ-Hq-gPa">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="PzZ-Hq-gPa" secondAttribute="height" multiplier="1:1" id="tTo-Xw-2tv"/>
+                                                    <constraint firstAttribute="height" constant="20" id="taW-a6-TbC"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:00 – 19:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68V-R1-j5D">
+                                                <rect key="frame" x="32" y="0.0" width="85.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="AXd-x0-j3Q">
+                                        <rect key="frame" x="0.0" y="48" width="117.5" height="20"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="salary_icon" translatesAutoresizingMaskIntoConstraints="NO" id="EST-IR-3CI">
+                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="EST-IR-3CI" secondAttribute="height" multiplier="1:1" id="drx-1w-FbF"/>
+                                                    <constraint firstAttribute="height" constant="20" id="v5d-xC-JLp"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Giriş Ücretli" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf2-42-k3Z">
+                                                <rect key="frame" x="32" y="0.0" width="85.5" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeF-21-fhB">
+                                <rect key="frame" x="28" y="451.5" width="358" height="184"/>
+                                <string key="text">Kız Kulesi şüphesiz İstanbul’un en güzel ve büyüleyici yerlerinden birisi olup, Üsküdar Salacak açıklarında 150-200 metre mesafede bir konumda bulunuyor. Hem müze hem de restoran olarak her gün 09:00 – 19:00 saatleri arasında ziyarete açık. Gündüz vakti kahvaltıya gelebilir, ayrıca rezervasyona gerek olmadan cafe ve restorandan yararlanabilirsiniz. Kız kulesinin giriş katında restoran ve kafeterya hizmeti, üst katında bulunan Kuledebar Cafe’de ise boğaz manzarası eşliğinde yeme içme hizmeti veriliyor. Akşam yemekleri için ise rezervasyon yaptırmanız gerekiyor😇</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="FontColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7p0-34-GsU">
+                                <rect key="frame" x="158.5" y="651.5" width="97" height="31"/>
+                                <color key="backgroundColor" name="ButtonColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Yol tarifi al">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
+                                    <color key="baseForegroundColor" name="ButtonFontColor"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="8"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7p0-34-GsU" firstAttribute="top" secondItem="QeF-21-fhB" secondAttribute="bottom" constant="16" id="57h-nJ-eh0"/>
+                            <constraint firstItem="7p0-34-GsU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CCK-Bd-uxp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QeF-21-fhB" secondAttribute="trailing" constant="28" id="D0S-bp-bdw"/>
+                            <constraint firstItem="yiD-rZ-JJg" firstAttribute="top" secondItem="akO-5o-B5m" secondAttribute="bottom" constant="8" id="Pzj-hx-1mq"/>
+                            <constraint firstItem="QeF-21-fhB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="SPC-gf-2b8"/>
+                            <constraint firstItem="QeF-21-fhB" firstAttribute="top" secondItem="yiD-rZ-JJg" secondAttribute="bottom" constant="12" id="TR5-Cy-6F6"/>
+                            <constraint firstItem="you-JR-wfv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="TRO-1K-LA8"/>
+                            <constraint firstItem="you-JR-wfv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Xsl-pp-FR0"/>
+                            <constraint firstItem="akO-5o-B5m" firstAttribute="top" secondItem="you-JR-wfv" secondAttribute="bottom" constant="8" id="bNJ-L7-ES6"/>
+                            <constraint firstItem="akO-5o-B5m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="ksZ-qV-uPi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="you-JR-wfv" secondAttribute="trailing" constant="32" id="mSy-tL-l5u"/>
+                            <constraint firstItem="yiD-rZ-JJg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="mip-K5-NDy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BGi-AB-gpc" secondAttribute="trailing" constant="45" id="plK-oY-XMm"/>
+                            <constraint firstItem="BGi-AB-gpc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="z5U-3B-hY6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="locationName" destination="akO-5o-B5m" id="0zU-jh-28P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clock_icon" width="170.5" height="170.5"/>
+        <image name="fill_heart" width="42.5" height="42.5"/>
+        <image name="kizKulesi" width="400" height="400"/>
+        <image name="location_icon" width="170.5" height="170.5"/>
+        <image name="salary_icon" width="170.5" height="170.5"/>
+        <namedColor name="ButtonColor">
+            <color red="0.94901960784313721" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ButtonFontColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FontColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="MainColor">
+            <color red="0.0" green="0.0" blue="0.31799998879432678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
